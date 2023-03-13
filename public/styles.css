@@ -1,0 +1,54 @@
+/* body section and misc classes/elements for styling */
+body {
+  margin: 0;
+  background-color: #00274c;
+  color: #ffcb05;
+}
+
+h2 {
+  border-top: 5px double #ffcb05;
+  border-bottom: 5px double #ffcb05;
+  border-radius: 15px;
+  width: 50%;
+  text-align: center;
+}
+
+.section-heading {
+  margin-top: 0;
+}
+
+.footer-bottom {
+  margin-bottom: 0;
+}
+
+/* navbar section */
+.nav-bar {
+  background-color: #ffcb05;
+  color: #00274c;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  display: block;
+  text-align: center;
+}
+
+li a {
+  color: #00274c;
+  text-decoration: none;
+}
+
+/* football section */
+.football-section {
+}
+
+/* other sports section */
+
+/* footer section */
+footer {
+  background-color: #ffcb05;
+  color: #00274c;
+}
