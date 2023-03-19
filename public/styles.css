@@ -1,34 +1,64 @@
 /* body section and misc classes/elements for styling */
+:root {
+  --wolverineYellow: #ffcb05;
+  --wolverineBlue: #00274c;
+  --wolverineWhite: white;
+  --marginZero: 0;
+  --textDecoration: none;
+}
+
 body {
-  margin: 0;
-  background-color: #00274c;
-  color: #ffcb05;
+  margin: var(--marginZero);
+  background-color: var(--wolverineBlue);
+  color: var(--wolverineYellow);
 }
 
 h2 {
-  border-top: 5px double #ffcb05;
-  border-bottom: 5px double #ffcb05;
+  border-top: 5px double var(--wolverineYellow);
+  border-bottom: 5px double var(--wolverineYellow);
   border-radius: 15px;
   width: 50%;
   text-align: center;
 }
 
 .section-heading {
-  margin-top: 0;
+  margin-top: var(--marginZero);
 }
 
 .footer-bottom {
-  margin-bottom: 0;
+  margin-bottom: var(--marginZero);
+}
+
+/* buttons on page styling */
+
+button {
+  background-color: var(--wolverineBlue);
+  margin-left: 0.5rem;
+  border: 3px solid var(--wolverineYellow);
+  border-radius: 0.5rem;
+}
+
+button a {
+  color: var(--wolverineYellow);
+  text-decoration: var(--textDecoration);
+}
+
+button:hover {
+  background-color: var(--wolverineYellow);
+}
+
+button a:hover {
+  color: var(--wolverineBlue);
 }
 
 /* navbar section */
 .nav-bar {
-  background-color: #ffcb05;
-  color: #00274c;
+  background-color: var(--wolverineYellow);
+  color: var(--wolverineBlue);
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: var(--textDecoration);
 }
 
 nav {
@@ -37,8 +67,8 @@ nav {
 }
 
 li a {
-  color: #00274c;
-  text-decoration: none;
+  color: var(--wolverineBlue);
+  text-decoration: var(--textDecoration);
 }
 
 /* football section */
@@ -49,6 +79,20 @@ li a {
 
 /* footer section */
 footer {
-  background-color: #ffcb05;
-  color: #00274c;
+  background-color: var(--wolverineYellow);
+  color: var(--wolverineBlue);
+}
+
+.go-blue-footer {
+  margin-top: var(--marginZero);
+  margin-bottom: var(--marginZero);
+}
+
+.wolverines-corner-footer {
+  margin-bottom: var(--marginZero);
+}
+
+.email-footer {
+  margin-top: var(--marginZero);
+  margin-bottom: var(--marginZero);
 }
