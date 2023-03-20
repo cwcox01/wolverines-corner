@@ -1,15 +1,17 @@
 import React from "react";
 
-// importing navbar li component
-import NavbarItem from "./NavbarItem";
+// importing smaller component
+import NavbarList from "./NavbarList";
 
 export default function NavbarSubFootball() {
   return (
-    <ul>
-      <NavbarItem navItemName="Schedule" navItemUrl="#" />
-      <NavbarItem navItemName="Standings" navItemUrl="#" />
-      <NavbarItem navItemName="Future Schedule" navItemUrl="#" />
-      <NavbarItem navItemName="Roster" navItemUrl="#" />
-    </ul>
+    <div className="dropdown">
+      <button className="dropbtn">Football</button>
+      <div class="dropdown-content">
+        <NavbarList navListUrl="https://google.com" navListText="Google" />
+        <NavbarList navListUrl="https://google.com" navListText="Google" />
+        <NavbarList navListUrl="https://google.com" navListText="Google" />
+      </div>
+    </div>
   );
 }

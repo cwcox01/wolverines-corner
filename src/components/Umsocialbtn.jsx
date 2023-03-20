@@ -5,7 +5,7 @@ import SocialMediaItem from "./SocialMediaItem";
 
 export default function Umsocialbtn() {
   return (
-    <div>
+    <div className="pt-3">
       <SocialMediaItem
         socialMediaUrl="https://www.instagram.com/umichathletics/"
         socialMediaText="UofM Athletics"

@@ -5,7 +5,7 @@ import OtherSportsItem from "./OtherSportsItem";
 
 export default function OtherSportsBtn() {
   return (
-    <div className="other-sports-btn">
+    <div className="other-sports-btn pt-3">
       <OtherSportsItem
         otherSportsUrl="https://mgoblue.com/sports/mens-ice-hockey"
         otherSportsText="Ice Hockey"

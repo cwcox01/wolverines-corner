@@ -4,7 +4,9 @@
   --wolverineBlue: #00274c;
   --wolverineWhite: white;
   --marginZero: 0;
-  --textDecoration: none;
+  --textDecorationNone: none;
+  --centerAlign: center;
+  --flexDirection: column;
 }
 
 body {
@@ -25,62 +27,129 @@ h2 {
   margin-top: var(--marginZero);
 }
 
-.footer-bottom {
-  margin-bottom: var(--marginZero);
+/* navbar section */
+.nav-bar {
+  color: var(--wolverineYellow);
 }
 
-/* buttons on page styling */
+.wolverine-nav {
+  overflow: hidden;
+  background-color: var(--wolverineWhite);
+}
 
-button {
+.wolverine-nav a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: var(--textDecorationNone);
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: var(--wolverineBlue);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.wolverine-nav a:hover,
+.dropdown:hover .dropbtn {
+  background-color: var(--wolverineYellow);
+  color: var(--wolverineBlue);
+  border: 3px solid var(--wolverineWhi);
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: var(--wolverineYellow);
+  min-width: auto;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: var(--wolverineYellow);
+  background-color: var(--wolverineBlue);
+  padding: 12px 16px;
+  text-decoration: var(--textDecorationNone);
+  display: block;
+  text-align: var(--centerAlign);
+}
+
+.dropdown-content a:hover {
+  background-color: var(--wolverineYellow);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* football section */
+.football-section {
+  display: flex;
+  flex-direction: var(--flexDirection);
+  align-items: var(--centerAlign);
+}
+
+/* other sports/ um social media buttons on page styling */
+
+.social-sports-btn {
   background-color: var(--wolverineBlue);
   margin-left: 0.5rem;
   border: 3px solid var(--wolverineYellow);
   border-radius: 0.5rem;
 }
 
-button a {
+.social-sports-btn a {
   color: var(--wolverineYellow);
-  text-decoration: var(--textDecoration);
+  text-decoration: var(--textDecorationNone);
 }
 
-button:hover {
+.social-sports-btn:hover {
   background-color: var(--wolverineYellow);
 }
 
-button a:hover {
+.social-sports-btn a:hover {
   color: var(--wolverineBlue);
-}
-
-/* navbar section */
-.nav-bar {
-  background-color: var(--wolverineYellow);
-  color: var(--wolverineBlue);
-}
-
-ul {
-  list-style-type: var(--textDecoration);
-}
-
-nav {
-  display: block;
-  text-align: center;
-}
-
-li a {
-  color: var(--wolverineBlue);
-  text-decoration: var(--textDecoration);
-}
-
-/* football section */
-.football-section {
 }
 
 /* other sports section */
+.um-other-sports {
+  display: flex;
+  flex-direction: var(--flexDirection);
+  align-items: var(--centerAlign);
+}
 
+.um-social-media {
+  display: flex;
+  flex-direction: var(--flexDirection);
+  align-items: var(--centerAlign);
+}
+
+/* michigan basketball section */
+.basketball-section {
+  display: flex;
+  flex-direction: var(--flexDirection);
+  align-items: var(--centerAlign);
+}
 /* footer section */
 footer {
   background-color: var(--wolverineYellow);
   color: var(--wolverineBlue);
+  display: flex;
+  flex-direction: var(--flexDirection);
+  align-items: var(--centerAlign);
+  text-align: var(--centerAlign);
 }
 
 .go-blue-footer {
@@ -95,4 +164,36 @@ footer {
 .email-footer {
   margin-top: var(--marginZero);
   margin-bottom: var(--marginZero);
+}
+
+.footer-bottom {
+  margin-bottom: var(--marginZero);
+}
+
+.footer-michigan-logo {
+  margin-bottom: 1rem;
+  font-family: Michigan;
+  font-size: 4rem;
+}
+
+footer a {
+  font-size: 0.625rem;
+  color: var(--wolverineBlue);
+  text-decoration: var(--textDecorationNone);
+}
+
+footer a:hover {
+  color: var(--wolverineBlue);
+  border: 0.5px solid var(--wolverineBlue);
+}
+
+.footer-nav {
+  background-color: var(--wolverineWhite);
+  width: 100%;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
