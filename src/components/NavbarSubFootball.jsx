@@ -1,16 +1,24 @@
 import React from "react";
 
 // importing smaller component
-import NavbarList from "./NavbarList";
+import NavbarLink from "./NavbarLink";
+import NavbarUrl from "./NavbarListUrl";
 
 export default function NavbarSubFootball() {
   return (
     <div className="dropdown">
       <button className="dropbtn">Football</button>
-      <div class="dropdown-content">
-        <NavbarList navListUrl="https://google.com" navListText="Google" />
-        <NavbarList navListUrl="https://google.com" navListText="Google" />
-        <NavbarList navListUrl="https://google.com" navListText="Google" />
+      <div className="dropdown-content">
+        <NavbarLink navLink="/footballschedule" navText="Schedule" />
+        <NavbarUrl
+          navListUrl="https://bigten.org/standings.aspx?path=football"
+          navListText="B1G Standings"
+        />
+        <NavbarLink
+          navLink="/futurefootballschedule"
+          navText="Future Schedule"
+        />
+        <NavbarLink navLink="/roster" navText="Roster" />
       </div>
     </div>
   );

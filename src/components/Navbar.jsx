@@ -1,14 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // importing smaller component
 import NavbarSubFootball from "./NavbarSubFootball";
 import NavbarSubBasketball from "./NavSubBasketball";
 import NavbarSubRecruit from "./NavbarSubRecruit";
 
+const siteHeaderLinkStyle = {
+  textDecoration: "none",
+  color: "#ffcb05",
+};
+
 export default function Navbar() {
   return (
     <div className="nav-bar">
-      <h1 className="section-heading">Wolverines</h1>
+      <Link to="/" style={siteHeaderLinkStyle}>
+        <h1 className="section-heading ps-3 pb-3 pt-3">Wolverines</h1>
+      </Link>
       <div className="wolverine-nav">
         <NavbarSubFootball />
         <NavbarSubBasketball />
