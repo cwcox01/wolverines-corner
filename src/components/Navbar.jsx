@@ -17,7 +17,7 @@ export default function Navbar() {
       <Link to="/" style={siteHeaderLinkStyle}>
         <h1 className="section-heading ps-3 pb-3 pt-3">Wolverines</h1>
       </Link>
-      <div className="wolverine-nav">
+      <div className="topnav">
         <NavbarSubFootball />
         <NavbarSubBasketball />
         <NavbarSubRecruit />

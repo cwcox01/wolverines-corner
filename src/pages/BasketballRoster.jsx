@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function BasketballRoster() {
-  return <h2>Basketball Roster</h2>;
+  return (
+    <div className="pt-4 pb-4 d-flex justify-content-center">
+      <h2>Future Basketball Schedule</h2>
+    </div>
+  );
 }
