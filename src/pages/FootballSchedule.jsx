@@ -1,12 +1,14 @@
 import React from "react";
 
+// importing components to use on football schedule routed page
+import FootballSchedulePage from "../components/FootballSchedule";
+import FootballContent from "../components/FootballContent";
+
 export default function FootballSchedle() {
   return (
-    <div className="football-section pt-5 pb-5" id="football">
-      <h2>Michigan Football Schedule</h2>
-      <p className="pt-2">Overall Record: (W-L) (year Season)</p>
-      <p>Big Ten Record: (W-L) (year Season)</p>
-      <h3>Schedule (year)</h3>
+    <div className="football-section pt-5 pb-5 d-flex align-items-center flex-column">
+      <FootballContent />
+      <FootballSchedulePage />
     </div>
   );
 }

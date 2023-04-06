@@ -6,7 +6,7 @@ import FooterText from "./FooterText";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="d-flex align-items-center flex-column">
       <FooterText />
       <FooterNav />
     </footer>

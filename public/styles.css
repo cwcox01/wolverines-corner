@@ -38,16 +38,6 @@ h2 {
   justify-content: center;
 }
 
-/* .topnav a {
-  float: left;
-  display: flex;
-  color: var(--wolverineBlue);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-} */
-
 .topnav .icon {
   display: none;
 }
@@ -100,11 +90,6 @@ h2 {
 }
 
 /* football section */
-.football-section {
-  display: flex;
-  flex-direction: var(--flexDirection);
-  align-items: var(--centerAlign);
-}
 
 /* other sports/ um social media buttons on page styling */
 
@@ -129,31 +114,13 @@ h2 {
 }
 
 /* other sports section */
-.um-other-sports {
-  display: flex;
-  flex-direction: var(--flexDirection);
-  align-items: var(--centerAlign);
-}
-
-.um-social-media {
-  display: flex;
-  flex-direction: var(--flexDirection);
-  align-items: var(--centerAlign);
-}
 
 /* michigan basketball section */
-.basketball-section {
-  display: flex;
-  flex-direction: var(--flexDirection);
-  align-items: var(--centerAlign);
-}
+
 /* footer section */
 footer {
   background-color: var(--wolverineYellow);
   color: var(--wolverineBlue);
-  display: flex;
-  flex-direction: var(--flexDirection);
-  align-items: var(--centerAlign);
   text-align: var(--centerAlign);
 }
 
@@ -202,14 +169,23 @@ footer a:hover {
 }
 
 .footer-nav ul {
-  display: flex;
-  flex-direction: row;
   list-style-type: none;
-  justify-content: var(--centerAlign);
 }
 
 .footer-text {
   font-size: 0.75rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  /* width: 100%; */
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
 }
 
 /* css for other pages routed is below */
@@ -242,5 +218,15 @@ footer a:hover {
 
   .um-social-media-btn button {
     margin-bottom: 1rem;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 3px;
   }
 }

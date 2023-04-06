@@ -1,0 +1,319 @@
+{
+    "basketball": [
+        {
+            "Dat": "4-Nov",
+            "Time": "7:00 PM",
+            "At": "H",
+            "Opponent": "Ferris State (ex)",
+            "Result": "W",
+            "Score": "88-75",
+            "BigTen": ""
+        },
+        {
+            "Dat": "7-Nov",
+            "Time": "6:30 PM",
+            "At": "H",
+            "Opponent": "Purdue Fort Wayne",
+            "Result": "W",
+            "Score": "75-56",
+            "BigTen": ""
+        },
+        {
+            "Dat": "11-Nov",
+            "Time": "9:00 PM",
+            "At": "N",
+            "Opponent": "Eastern Michigan",
+            "Result": "W",
+            "Score": "88-83",
+            "BigTen": ""
+        },
+        {
+            "Dat": "16-Nov",
+            "Time": "6:00 PM",
+            "At": "N",
+            "Opponent": "Pittsburgh",
+            "Result": "W",
+            "Score": "91-60",
+            "BigTen": ""
+        },
+        {
+            "Dat": "17-Nov",
+            "Time": "9:00 PM",
+            "At": "N",
+            "Opponent": "Arizona State",
+            "Result": "L",
+            "Score": "62-87",
+            "BigTen": ""
+        },
+        {
+            "Dat": "20-Nov",
+            "Time": "7:30 PM",
+            "At": "H",
+            "Opponent": "Ohio",
+            "Result": "W",
+            "Score": "70-66",
+            "BigTen": ""
+        },
+        {
+            "Dat": "23-Nov",
+            "Time": "8:30 PM",
+            "At": "H",
+            "Opponent": "Jackson State",
+            "Result": "W",
+            "Score": "78-68",
+            "BigTen": ""
+        },
+        {
+            "Dat": "29-Nov",
+            "Time": "9:30 PM",
+            "At": "H",
+            "Opponent": "Virginia",
+            "Result": "L",
+            "Score": "68-70",
+            "BigTen": ""
+        },
+        {
+            "Dat": "4-Dec",
+            "Time": "1:00 PM",
+            "At": "N",
+            "Opponent": "Kentucky",
+            "Result": "L",
+            "Score": "69-73",
+            "BigTen": ""
+        },
+        {
+            "Dat": "8-Dec",
+            "Time": "8:00 PM",
+            "At": "A",
+            "Opponent": "Minnesota",
+            "Result": "W",
+            "Score": "90-75",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "17-Dec",
+            "Time": "4:00 PM",
+            "At": "H",
+            "Opponent": "Lipscomb",
+            "Result": "W",
+            "Score": "83-75",
+            "BigTen": ""
+        },
+        {
+            "Dat": "21-Dec",
+            "Time": "7:00 PM",
+            "At": "N",
+            "Opponent": "North Carolina",
+            "Result": "L",
+            "Score": "76-80",
+            "BigTen": ""
+        },
+        {
+            "Dat": "29-Dec",
+            "Time": "7:00 PM",
+            "At": "H",
+            "Opponent": "Central Michigan",
+            "Result": "L",
+            "Score": "61-63",
+            "BigTen": ""
+        },
+        {
+            "Dat": "1-Jan",
+            "Time": "4:30",
+            "At": "H",
+            "Opponent": "Maryland",
+            "Result": "W",
+            "Score": "81-46",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "4-Jan",
+            "Time": "7:00",
+            "At": "H",
+            "Opponent": "Penn State",
+            "Result": "W",
+            "Score": "79-69",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "7-Jan",
+            "Time": "2:30",
+            "At": "A",
+            "Opponent": "Michigan State",
+            "Result": "L",
+            "Score": "53-59",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "12-Jan",
+            "Time": "6:00",
+            "At": "A",
+            "Opponent": "Iowa",
+            "Result": "L",
+            "Score": "84-93",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "15-Jan",
+            "Time": "Noon",
+            "At": "H",
+            "Opponent": "Northwestern",
+            "Result": "W",
+            "Score": "85-78",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "19-Jan",
+            "Time": "7:00",
+            "At": "A",
+            "Opponent": "Maryland",
+            "Result": "L",
+            "Score": "58-64",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "22-Jan",
+            "Time": "1:00",
+            "At": "H",
+            "Opponent": "Minnesota",
+            "Result": "W",
+            "Score": "60-56",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "26-Jan",
+            "Time": "9:00",
+            "At": "H",
+            "Opponent": "Purdue",
+            "Result": "L",
+            "Score": "70-75",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "29-Jan",
+            "Time": "Noon",
+            "At": "A",
+            "Opponent": "Penn State",
+            "Result": "L",
+            "Score": "61-83",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "2-Feb",
+            "Time": "6:00",
+            "At": "A",
+            "Opponent": "Northwestern",
+            "Result": "W",
+            "Score": "68-51",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "5-Feb",
+            "Time": "1:00",
+            "At": "H",
+            "Opponent": "Ohio State",
+            "Result": "W",
+            "Score": "77-69",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "8-Feb",
+            "Time": "6:30",
+            "At": "H",
+            "Opponent": "Nebraska",
+            "Result": "W",
+            "Score": "93-72",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "11-Feb",
+            "Time": "6:00",
+            "At": "H",
+            "Opponent": "Indiana",
+            "Result": "L",
+            "Score": "61-62",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "14-Feb",
+            "Time": "8:00",
+            "At": "A",
+            "Opponent": "Wisconsin",
+            "Result": "L",
+            "Score": "59-64",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "18-Feb",
+            "Time": "8:00",
+            "At": "H",
+            "Opponent": "Michigan State",
+            "Result": "W",
+            "Score": "84-72",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "23-Feb",
+            "Time": "8:30",
+            "At": "A",
+            "Opponent": "Rutgers",
+            "Result": "W",
+            "Score": "58-45",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "26-Feb",
+            "Time": "2:00",
+            "At": "H",
+            "Opponent": "Wisconsin",
+            "Result": "W",
+            "Score": "87-79",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "2-Mar",
+            "Time": "6:00",
+            "At": "A",
+            "Opponent": "Illinois",
+            "Result": "L",
+            "Score": "87-91",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "5-Mar",
+            "Time": "4:30",
+            "At": "A",
+            "Opponent": "Indiana",
+            "Result": "L",
+            "Score": "73-75",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "9-Mar",
+            "Time": "11:00",
+            "At": "N",
+            "Opponent": "Rutgers",
+            "Result": "L",
+            "Score": "50-62",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "14-Mar",
+            "Time": "7:00",
+            "At": "H",
+            "Opponent": "Toledo",
+            "Result": "W",
+            "Score": "90-80",
+            "BigTen": "Y"
+        },
+        {
+            "Dat": "18-Mar",
+            "Time": "11:00",
+            "At": "A",
+            "Opponent": "Vanderbilt",
+            "Result": "L",
+            "Score": "65-66",
+            "BigTen": "Y"
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "football": [
+        {
+            "Date": "2-Sep",
+            "Time": "TBD",
+            "At": "H",
+            "Opponent": "East Carolina",
+            "Score": "",
+            "Result": "",
+            "BigTen": ""
+        },
+        {
+            "Date": "9-Sep",
+            "Time": "TBD",
+            "At": "H",
+            "Opponent": "UNLV",
+            "Score": "",
+            "Result": "",
+            "BigTen": ""
+        },
+        {
+            "Date": "16-Sep",
+            "Time": "TBD",
+            "At": "H",
+            "Opponent": "Bowling Green",
+            "Score": "",
+            "Result": "",
+            "BigTen": ""
+
+        },
+        {
+            "Date": "23-Sep",
+            "Time": "TBD",
+            "At": "H",
+            "Opponent": "Rutgers",
+            "Score": "",
+            "Result": "",
+            "BigTen": ""
+        },
+        {
+            "Date": "30-Sep",
+            "Time": "TBD",
+            "At": "A",
+            "Opponent": "Nebraska",
+            "Score": "",
+            "Result": ""
+        },
+        {
+            "Date": "7-Oct",
+            "Time": "TBD",
+            "At": "A",
+            "Opponent": "Minnesota",
+            "Score": "",
+            "Result": ""
+        },
+        {
+            "Date": "14-Oct",
+            "Time": "TBD",
+            "At": "H",
+            "Opponent": "Indiana",
+            "Score": "",
+            "Result": ""
+        },
+        {
+            "Date": "21-Oct",
+            "Time": "TBD",
+            "At": "A",
+            "Opponent": "Michigan State",
+            "Score": "",
+            "Result": ""
+        },
+        {
+            "Date": "4-Nov",
+            "Time": "TBD",
+            "At": "H",
+            "Opponent": "Purdue",
+            "Score": "",
+            "Result": ""
+        },
+        {
+            "Date": "11-Nov",
+            "Time": "TBD",
+            "At": "A",
+            "Opponent": "Penn State",
+            "Score": "",
+            "Result": ""
+        },
+        {
+            "Date": "18-Nov",
+            "Time": "TBD",
+            "At": "A",
+            "Opponent": "Maryland",
+            "Score": "",
+            "Result": ""
+        },
+        {
+            "Date": "25-Nov",
+            "Time": "TBD",
+            "At": "H",
+            "Opponent": "Ohio State",
+            "Score": "",
+            "Result": ""
+        }
+    ]
+}
