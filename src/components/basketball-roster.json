@@ -1,0 +1,100 @@
+{
+  "basketballroster": [
+      {
+          "Number": "0",
+          "Player": "Dug McDaniel",
+          "Position": "G",
+          "Class": "Fr."
+      },
+      {
+          "Number": "1",
+          "Player": "Hunter Dickinson",
+          "Position": "C",
+          "Class": "Jr."
+      },
+      {
+          "Number": "2",
+          "Player": "Kobe Bufkin",
+          "Position": "G",
+          "Class": "So."
+      },
+      {
+          "Number": "3",
+          "Player": "Jaelin Llewellyn",
+          "Position": "G",
+          "Class": "Gr."
+      },
+      {
+          "Number": "4",
+          "Player": "Ian Burns",
+          "Position": "G",
+          "Class": "So."
+      },
+      {
+          "Number": "5",
+          "Player": "Terrance Williams II",
+          "Position": "F",
+          "Class": "Jr."
+      },
+      {
+          "Number": "11",
+          "Player": "Isaiah Barnes",
+          "Position": "G",
+          "Class": "R-Fr."
+      },
+      {
+          "Number": "13",
+          "Player": "Jett Howard",
+          "Position": "G",
+          "Class": "Fr."
+      },
+      {
+          "Number": "15",
+          "Player": "Joey Baker",
+          "Position": "G",
+          "Class": "Gr."
+      },
+      {
+          "Number": "23",
+          "Player": "Gregg Glenn III",
+          "Position": "F",
+          "Class": "Fr."
+      },
+      {
+          "Number": "24",
+          "Player": "Youssef Khayat",
+          "Position": "F",
+          "Class": "Fr."
+      },
+      {
+          "Number": "25",
+          "Player": "Jace Howard",
+          "Position": "G",
+          "Class": "So."
+      },
+      {
+          "Number": "32",
+          "Player": "Tarris Reed Jr.",
+          "Position": "F",
+          "Class": "Fr."
+      },
+      {
+          "Number": "34",
+          "Player": "Jackson Selvala",
+          "Position": "F",
+          "Class": "Sr."
+      },
+      {
+          "Number": "42",
+          "Player": "Will Tschetter",
+          "Position": "F",
+          "Class": "R-Fr."
+      },
+      {
+          "Number": "45",
+          "Player": "Cooper Smith",
+          "Position": "G",
+          "Class": "So."
+      }
+  ]
+}

@@ -1,9 +1,17 @@
 import React from "react";
 
-export default function BasketballRoster() {
+// importing basketball roster component
+import BasketballRoster from "../components/BasketballRoster";
+
+export default function BasketballRosterPage() {
   return (
-    <div className="pt-4 pb-4 d-flex justify-content-center">
-      <h2>Future Basketball Schedule</h2>
-    </div>
+    <>
+      <div className="pt-5 pb-5 d-flex justify-content-center">
+        <h2>Michigan Basketball Roster (2023 - 2023)</h2>
+      </div>
+      <div className="d-flex align-items-center flex-column">
+        <BasketballRoster />
+      </div>
+    </>
   );
 }

@@ -14,10 +14,6 @@ export default function NavbarSubBasketball() {
           navListUrl="https://bigten.org/standings.aspx?path=mbball"
           navListText="B1G Standings"
         />
-        <NavbarLink
-          navLink="/basketballfutureschedule"
-          navText="Future Schedule"
-        />
         <NavbarLink navLink="/basketballroster" navText="Roster" />
       </div>
     </div>

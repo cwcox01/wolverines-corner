@@ -14,11 +14,7 @@ export default function NavbarSubFootball() {
           navListUrl="https://bigten.org/standings.aspx?path=football"
           navListText="B1G Standings"
         />
-        <NavbarLink
-          navLink="/futurefootballschedule"
-          navText="Future Schedule"
-        />
-        <NavbarLink navLink="/roster" navText="Roster" />
+        <NavbarLink navLink="/footballroster" navText="Roster" />
       </div>
     </div>
   );
