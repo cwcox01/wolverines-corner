@@ -8,8 +8,14 @@ export default function NavbarSubRecruit() {
     <div className="dropdown">
       <button className="dropbtn">Recruiting</button>
       <div className="dropdown-content">
-        <NavbarList navListUrl="https://google.com" navListText="Football" />
-        <NavbarList navListUrl="https://google.com" navListText="Basketball" />
+        <NavbarList
+          navListUrl="https://247sports.com/college/michigan/Season/2024-Football/Commits/"
+          navListText="Football"
+        />
+        <NavbarList
+          navListUrl="https://247sports.com/college/michigan/Season/2023-Basketball/Commits/"
+          navListText="Basketball"
+        />
       </div>
     </div>
   );
