@@ -1,35 +1,35 @@
 import React from "react";
 
-// importing json data for basketball schedule
-import schedule from "./basketball-schedule.json";
+// importing json file for schedule data
+import schedule from "./football-schedule.json";
 
 // importing smaller component
-import BasketballScheduleItem from "./BasketballScheduleItem";
+import FootballScheduleItem from "./FootballScheduleItem";
 
-// setting variable to access json data
-const michiganBasketballSchedule = schedule.basketball;
+// const variable for accessing football schedule data
+const michiganFootballSchedule = schedule.football;
 
-console.log(michiganBasketballSchedule);
-
-export default function BasketballSchedule() {
+export default function FootballSchedule() {
   return (
     <table>
       <tr>
         <th>Date</th>
+        <th>Time</th>
         <th>At</th>
         <th>Opp.</th>
         <th>Score</th>
         <th>Result</th>
       </tr>
 
-      {michiganBasketballSchedule &&
-        michiganBasketballSchedule.map((basketball) => (
-          <BasketballScheduleItem
-            basketballGameDate={basketball.Dat}
-            basketballGameAt={basketball.At}
-            basketballGameOpponent={basketball.Opponent}
-            basketballGameScore={basketball.Score}
-            basketballGameResult={basketball.Result}
+      {michiganFootballSchedule &&
+        michiganFootballSchedule.map((football) => (
+          <FootballScheduleItem
+            footballGameDate={football.Date}
+            footballGameTime={football.Time}
+            footballGameAt={football.At}
+            footballGameOpponent={football.Opponent}
+            footballGameScore={football.Score}
+            footballGameResult={football.Result}
           />
         ))}
     </table>
