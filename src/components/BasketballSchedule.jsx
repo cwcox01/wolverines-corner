@@ -9,6 +9,8 @@ import BasketballScheduleItem from "./BasketballScheduleItem";
 // setting variable to access json data
 const michiganBasketballSchedule = schedule.basketball;
 
+console.log(michiganBasketballSchedule);
+
 export default function BasketballSchedule() {
   return (
     <table>
@@ -33,5 +35,3 @@ export default function BasketballSchedule() {
     </table>
   );
 }
-
-console.log(michiganBasketballSchedule);
