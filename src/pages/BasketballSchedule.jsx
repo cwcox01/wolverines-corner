@@ -1,7 +1,6 @@
 import React from "react";
 
 // importing components to be used from components folder
-// import BasketballContent from "../components/BasketballContent";
 import BasketballSchedulePage from "../components/BasketballSchedule";
 
 export default function BasketballSchedule() {

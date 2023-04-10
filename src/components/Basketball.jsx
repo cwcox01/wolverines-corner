@@ -1,7 +1,6 @@
 import React from "react";
 
 // importing smaller basketball components
-// import BasketballContent from "./BasketballContent";
 import BasketballSchedule from "./BasketballSchedule";
 
 export default function Basketball() {
