@@ -1,15 +1,21 @@
 import React from "react";
 
-// importing navbar li component
-import NavbarItem from "./NavbarItem";
+// importing smaller component
+import NavbarLink from "./NavbarLink";
+import NavbarUrl from "./NavbarListUrl";
 
 export default function NavbarSubFootball() {
   return (
-    <ul>
-      <NavbarItem navItemName="Schedule" navItemUrl="#" />
-      <NavbarItem navItemName="Standings" navItemUrl="#" />
-      <NavbarItem navItemName="Future Schedule" navItemUrl="#" />
-      <NavbarItem navItemName="Roster" navItemUrl="#" />
-    </ul>
+    <div className="dropdown">
+      <button className="dropbtn">Football</button>
+      <div className="dropdown-content">
+        <NavbarLink navLink="/footballschedule" navText="Schedule" />
+        <NavbarUrl
+          navListUrl="https://bigten.org/standings.aspx?path=football"
+          navListText="B1G Standings"
+        />
+        <NavbarLink navLink="/footballroster" navText="Roster" />
+      </div>
+    </div>
   );
 }

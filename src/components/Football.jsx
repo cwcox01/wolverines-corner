@@ -1,12 +1,16 @@
 import React from "react";
 
+import FootballSchedle from "./FootballSchedule";
+import FootballContent from "./FootballContent";
+
 export default function Football() {
   return (
-    <div className="football-section">
-      <h2 className="">Michigan Football</h2>
-      <p>Overall Record: (W-L)</p>
-      <p>Big Ten Record: (W-L)</p>
-      <h3>Schedule (year)</h3>
+    <div
+      className="football-section pt-5 d-flex align-items-center flex-column"
+      id="football"
+    >
+      <FootballContent />
+      <FootballSchedle />
     </div>
   );
 }

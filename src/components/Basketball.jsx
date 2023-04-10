@@ -1,12 +1,17 @@
 import React from "react";
 
+// importing smaller basketball components
+import BasketballContent from "./BasketballContent";
+import BasketballSchedule from "./BasketballSchedule";
+
 export default function Basketball() {
   return (
-    <div className="basketball-section">
-      <h2 className="">Michigan Basketball</h2>
-      <p>Overall Record: (W-L)</p>
-      <p>Big Ten Record: (W-L)</p>
-      <h3>Schedule (year)</h3>
+    <div
+      className="basketball-section pt-5 pb-5 d-flex align-items-center flex-column"
+      id="basketball"
+    >
+      <BasketballContent />
+      <BasketballSchedule />
     </div>
   );
 }

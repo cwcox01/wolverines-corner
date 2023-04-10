@@ -1,54 +1,232 @@
 /* body section and misc classes/elements for styling */
+:root {
+  --wolverineYellow: #ffcb05;
+  --wolverineBlue: #00274c;
+  --wolverineWhite: white;
+  --marginZero: 0;
+  --textDecorationNone: none;
+  --centerAlign: center;
+  --flexDirection: column;
+}
+
 body {
-  margin: 0;
-  background-color: #00274c;
-  color: #ffcb05;
+  margin: var(--marginZero);
+  background-color: var(--wolverineBlue);
+  color: var(--wolverineYellow);
 }
 
 h2 {
-  border-top: 5px double #ffcb05;
-  border-bottom: 5px double #ffcb05;
+  border-top: 5px double var(--wolverineYellow);
+  border-bottom: 5px double var(--wolverineYellow);
   border-radius: 15px;
-  width: 50%;
+  width: 70%;
   text-align: center;
 }
 
 .section-heading {
-  margin-top: 0;
-}
-
-.footer-bottom {
-  margin-bottom: 0;
+  margin-top: var(--marginZero);
 }
 
 /* navbar section */
 .nav-bar {
-  background-color: #ffcb05;
-  color: #00274c;
+  color: var(--wolverineYellow);
 }
 
-ul {
-  list-style-type: none;
+.topnav {
+  background-color: var(--wolverineWhite);
+  display: flex;
+  justify-content: center;
 }
 
-nav {
-  display: block;
-  text-align: center;
+.topnav .icon {
+  display: none;
 }
 
-li a {
-  color: #00274c;
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: var(--wolverineBlue);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--wolverineYellow);
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: var(--wolverineBlue);
+  background-color: var(--wolverineYellow);
+  padding: 12px 16px;
   text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+  background-color: var(--wolverineYellow);
+  color: var(--wolverineBlue);
+}
+
+.dropdown-content a:hover {
+  background-color: var(--wolverineWhite);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* football section */
-.football-section {
+
+/* other sports/ um social media buttons on page styling */
+
+.social-sports-btn {
+  background-color: var(--wolverineBlue);
+  margin-left: 0.5rem;
+  border: 3px solid var(--wolverineYellow);
+  border-radius: 0.5rem;
+}
+
+.social-sports-btn a {
+  color: var(--wolverineYellow);
+  text-decoration: var(--textDecorationNone);
+}
+
+.social-sports-btn:hover {
+  background-color: var(--wolverineYellow);
+}
+
+.social-sports-btn a:hover {
+  color: var(--wolverineBlue);
 }
 
 /* other sports section */
 
+/* michigan basketball section */
+
 /* footer section */
 footer {
-  background-color: #ffcb05;
-  color: #00274c;
+  background-color: var(--wolverineYellow);
+  color: var(--wolverineBlue);
+  text-align: var(--centerAlign);
+}
+
+.go-blue-footer {
+  margin-top: var(--marginZero);
+  margin-bottom: var(--marginZero);
+}
+
+.wolverines-corner-footer {
+  margin-bottom: var(--marginZero);
+}
+
+.email-footer {
+  margin-top: var(--marginZero);
+  margin-bottom: var(--marginZero);
+}
+
+.footer-bottom {
+  margin-bottom: var(--marginZero);
+}
+
+.footer-michigan-logo {
+  margin-bottom: 1rem;
+  font-family: Michigan;
+  font-size: 4rem;
+}
+
+footer a {
+  color: var(--wolverineBlue);
+  text-decoration: var(--textDecorationNone);
+}
+
+.email-footer a {
+  font-size: 0.625rem;
+}
+
+footer a:hover {
+  color: var(--wolverineBlue);
+  text-decoration: underline var(--wolverineBlue) 2px;
+}
+
+.footer-nav {
+  background-color: var(--wolverineWhite);
+  width: 100%;
+  font-size: 0.75rem;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+}
+
+.footer-text {
+  font-size: 0.75rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  /* width: 100%; */
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+/* css for other pages routed is below */
+
+/* general css for routed pages */
+
+/* media query 810px for mobile/responsive design */
+
+@media screen and (max-width: 810px) {
+  /* other michigan sports button styling */
+  .other-sports-btn {
+    display: flex;
+    flex-direction: var(--flexDirection);
+  }
+
+  .other-sports-btn button {
+    margin-bottom: 1rem;
+  }
+}
+
+/*  media query 700px for mobile/responsive deisng */
+
+@media screen and (max-width: 700px) {
+  /* um social media styling */
+
+  .um-social-media-btn {
+    display: flex;
+    flex-direction: var(--flexDirection);
+  }
+
+  .um-social-media-btn button {
+    margin-bottom: 1rem;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 3px;
+  }
 }
