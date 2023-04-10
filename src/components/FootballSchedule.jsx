@@ -21,16 +21,17 @@ export default function FootballSchedule() {
         <th>Result</th>
       </tr>
 
-      {michiganFootballSchedule.map((football, index) => (
-        <FootballScheduleItem
-          footballGameDate={football.Date}
-          footballGameTime={football.Time}
-          footballGameAt={football.At}
-          footballGameOpponent={football.Opponent}
-          footballGameScore={football.Score}
-          footballGameResult={football.Result}
-        />
-      ))}
+      {michiganFootballSchedule &&
+        michiganFootballSchedule.map((football) => (
+          <FootballScheduleItem
+            footballGameDate={football.Date}
+            footballGameTime={football.Time}
+            footballGameAt={football.At}
+            footballGameOpponent={football.Opponent}
+            footballGameScore={football.Score}
+            footballGameResult={football.Result}
+          />
+        ))}
     </table>
   );
 }

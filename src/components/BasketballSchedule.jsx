@@ -20,15 +20,16 @@ export default function BasketballSchedule() {
         <th>Result</th>
       </tr>
 
-      {michiganBasketballSchedule.map((basketball, index) => (
-        <BasketballScheduleItem
-          basketballGameDate={basketball.Dat}
-          basketballGameAt={basketball.At}
-          basketballGameOpponent={basketball.Opponent}
-          basketballGameScore={basketball.Score}
-          basketballGameResult={basketball.Result}
-        />
-      ))}
+      {michiganBasketballSchedule &&
+        michiganBasketballSchedule.map((basketball) => (
+          <BasketballScheduleItem
+            basketballGameDate={basketball.Dat}
+            basketballGameAt={basketball.At}
+            basketballGameOpponent={basketball.Opponent}
+            basketballGameScore={basketball.Score}
+            basketballGameResult={basketball.Result}
+          />
+        ))}
     </table>
   );
 }

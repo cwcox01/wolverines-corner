@@ -19,14 +19,15 @@ export default function FootballRoster() {
         <th>Class</th>
       </tr>
 
-      {michiganFootballRoster.map((footballroster, index) => (
-        <RosterItem
-          rosterNumber={footballroster.Number}
-          playerRoster={footballroster.Player}
-          rosterPosition={footballroster.Position}
-          rosterClass={footballroster.Class}
-        />
-      ))}
+      {michiganFootballRoster &&
+        michiganFootballRoster.map((footballroster) => (
+          <RosterItem
+            rosterNumber={footballroster.Number}
+            playerRoster={footballroster.Player}
+            rosterPosition={footballroster.Position}
+            rosterClass={footballroster.Class}
+          />
+        ))}
     </table>
   );
 }

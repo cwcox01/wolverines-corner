@@ -9,7 +9,7 @@ import RosterItem from "./RosterItem";
 // declaring variable to be used to access data
 const michiganBasketballRoster = roster.basketballroster;
 
-export default function FootballRoster() {
+export default function BasketballRoster() {
   return (
     <table className="mb-5">
       <tr>
@@ -19,14 +19,15 @@ export default function FootballRoster() {
         <th>Class</th>
       </tr>
 
-      {michiganBasketballRoster.map((basketballroster, index) => (
-        <RosterItem
-          rosterNumber={basketballroster.Number}
-          playerRoster={basketballroster.Player}
-          rosterPosition={basketballroster.Position}
-          rosterClass={basketballroster.Class}
-        />
-      ))}
+      {michiganBasketballRoster &&
+        michiganBasketballRoster.map((basketballroster) => (
+          <RosterItem
+            rosterNumber={basketballroster.Number}
+            playerRoster={basketballroster.Player}
+            rosterPosition={basketballroster.Position}
+            rosterClass={basketballroster.Class}
+          />
+        ))}
     </table>
   );
 }
