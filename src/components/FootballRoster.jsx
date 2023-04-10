@@ -21,7 +21,6 @@ export default function FootballRoster() {
 
       {michiganFootballRoster.map((footballroster, index) => (
         <RosterItem
-          key={index}
           rosterNumber={footballroster.Number}
           playerRoster={footballroster.Player}
           rosterPosition={footballroster.Position}

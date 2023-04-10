@@ -23,7 +23,6 @@ export default function FootballSchedule() {
 
       {michiganFootballSchedule.map((football, index) => (
         <FootballScheduleItem
-          key={index}
           footballGameDate={football.Date}
           footballGameTime={football.Time}
           footballGameAt={football.At}

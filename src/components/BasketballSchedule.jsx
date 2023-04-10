@@ -22,7 +22,6 @@ export default function BasketballSchedule() {
 
       {michiganBasketballSchedule.map((basketball, index) => (
         <BasketballScheduleItem
-          key={index}
           basketballGameDate={basketball.Dat}
           basketballGameAt={basketball.At}
           basketballGameOpponent={basketball.Opponent}
