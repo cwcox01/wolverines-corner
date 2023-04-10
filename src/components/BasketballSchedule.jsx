@@ -33,3 +33,5 @@ export default function BasketballSchedule() {
     </table>
   );
 }
+
+console.log(michiganBasketballSchedule);
