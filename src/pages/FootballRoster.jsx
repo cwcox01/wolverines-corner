@@ -1,7 +1,7 @@
 import React from "react";
 
 // importing football roster component
-import FootballRoster from "../components/FootballRoster";
+import FootballRoster from "../components/Football/FootballRoster";
 
 export default function Roster({ Roster }) {
   return (

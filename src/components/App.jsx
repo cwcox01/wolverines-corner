@@ -2,8 +2,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 // importing website components
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./Navbar/Navbar";
+import Footer from "./Footer/Footer";
 import FootballRosterRoute from "../pages/FootballRoster";
 import Home from "../pages/Home";
 import FootballSchedle from "../pages/FootballSchedule";
