@@ -1,7 +1,7 @@
 import React from "react";
 
 // importing components to use on football schedule routed page
-import FootballSchedulePage from "../components/FootballSchedule";
+import FootballSchedulePage from "../components/Football/FootballSchedule";
 
 export default function FootballSchedle() {
   return (
